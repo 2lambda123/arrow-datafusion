@@ -51,8 +51,8 @@ repos:
          - dockerfile
         entry: --entrypoint /bin/hadolint hadolint/hadolint:latest -
         exclude: ^dev/.*$
-  - repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: v1.2.3
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v1.2.3
     hooks:
      - id: flake8
        name: Python Format
