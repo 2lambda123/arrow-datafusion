@@ -114,7 +114,7 @@ test-utils = { path = "../../test-utils" }
 thiserror = { workspace = true }
 tokio-postgres = "0.7.7"
 [target.'cfg(not(target_os = "windows"))'.dev-dependencies]
-nix = { version = "0.27.1", features = ["fs"] }
+nix = { version = "0.28.0", features = ["fs"] }
 
 [[bench]]
 harness = false
