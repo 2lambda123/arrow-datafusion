@@ -41,7 +41,7 @@ arrow-array = { workspace = true }
 datafusion-common = { workspace = true }
 sqlparser = { workspace = true }
 strum = { version = "0.25.0", features = ["derive"] }
-strum_macros = "0.25.0"
+strum_macros = "0.26.2"
 
 [dev-dependencies]
 ctor = { workspace = true }
