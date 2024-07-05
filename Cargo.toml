@@ -70,7 +70,7 @@ datafusion-execution = { path = "datafusion/execution" }
 datafusion-proto = { path = "datafusion/proto" }
 datafusion-sqllogictest = { path = "datafusion/sqllogictest" }
 datafusion-substrait = { path = "datafusion/substrait" }
-dashmap = "5.4.0"
+dashmap = "6.0.1"
 doc-comment = "0.3"
 env_logger = "0.11"
 futures = "0.3"
