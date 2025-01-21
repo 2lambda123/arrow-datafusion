@@ -46,7 +46,7 @@ datafusion-expr = { workspace = true }
 datafusion-physical-expr = { workspace = true }
 futures = { workspace = true }
 half = { version = "2.1", default-features = false }
-hashbrown = { version = "0.14", features = ["raw"] }
+hashbrown = { version = "0.15", features = ["raw"] }
 indexmap = { workspace = true }
 itertools = { version = "0.14", features = ["use_std"] }
 log = { workspace = true }
