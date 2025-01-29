@@ -53,7 +53,7 @@ chrono = { workspace = true }
 datafusion-common = { workspace = true }
 datafusion-expr = { workspace = true }
 half = { version = "2.1", default-features = false }
-hashbrown = { version = "0.14", features = ["raw"] }
+hashbrown = { version = "0.15", features = ["raw"] }
 hex = { version = "0.4", optional = true }
 indexmap = { workspace = true }
 itertools = { version = "0.14", features = ["use_std"] }
